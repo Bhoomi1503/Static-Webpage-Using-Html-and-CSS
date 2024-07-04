@@ -1,21 +1,27 @@
 /* Header Section */
+html{
+    height: 100vh;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    width: 100%;
 }
 .header{
     background-color: #9f8189;
     height: 100px;
+    width: 100%;
     padding: 0px;
     margin: 0px;
 }
-.image{
-    background-image: url("/image/calli.jpg");
-    height: 600px;
-    width: 1340px;
+ img{
+    height: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
  ul{
     list-style-type: none;
     float: right;
@@ -34,7 +40,7 @@ body{
 a{
     color: white;
 }
-/* About Us Section */
+/* About Us */
 h1{
     margin: 0px;
 }
@@ -42,7 +48,7 @@ h1{
 .about img{
    width: 200px;
    height: 200px;
-   padding: 90px 0px 0px 0px;
+   padding: 60px 0px 0px 0px;
    margin: 20px;
    
 }
@@ -52,14 +58,15 @@ h1{
    padding: 40px;
    width: 100%;
    margin: 10px;
-   height: 400px;
+   height: 50vh;
 }
 .about p{
    
-    font-size: 25px;
-    word-spacing: 15px;
+    font-size: 20px;
+    word-spacing: 10px;
     text-align: left;
-    padding: 50px;
+    padding: 80px;
+    margin: 0px;
 }
 /* Services */
 .h1{
@@ -68,40 +75,57 @@ h1{
 }
 .services{
     display: flex;
-    height: 200px;
-    width: 200px;
-    padding: 70px;
+    padding: 30px;
 }
 .services img{
     margin: 0px 50px;
+    height: 300px;
+    width: 400px;
 }
 /* Products */
 .products{
     display: flex;
-    height: 250px;
-    width: 250px;
-    padding: 30px;
+    padding: 50px;
 }
 .products img{
     margin: 0px 100px;
+    height: 300px;
+    width: 400px;
+}
+.center img{
+    height: 400px;
+    width: 400px;
 }
 /* Contact Section */
-.button{
-    padding: 10px;
-    border: none;
-}
-h1,form{
+.contact{
     text-align: center;
-   
+    align-items: center;
 }
-/* footer */
+.btn1{
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.btn2{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+/* Footer Section */
 footer{
     
-    background-color: #05cc98;
+    background-color: #9f8189;
      height: 50px;
      width: auto;
      color: rgba(255, 255, 255, 1.0);
      margin: auto;
-     padding: 60px;
+     padding: 50px;
      text-align: center;
+ }
+ p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
  }
