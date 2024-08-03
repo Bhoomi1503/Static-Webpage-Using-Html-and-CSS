@@ -23,15 +23,15 @@ body{
 }
 
  ul{
-    list-style-type: none;
+    
     float: right;
-    text-decoration: none;
 }
  li{
     display: inline;
     padding: 20px;
     font-size: 20px;
-    text-decoration: none;
+    list-style-type: none;
+    
 }
 .header img{
     height: 100px;
@@ -39,8 +39,9 @@ body{
 }
 a{
     color: white;
+    text-decoration: none;
 }
-/* About Us */
+/* About Us Section */
 h1{
     margin: 0px;
 }
@@ -56,7 +57,7 @@ h1{
    text-align: center;
    display: flex;
    padding: 40px;
-   width: 100%;
+   width: 1420px;
    margin: 10px;
    height: 50vh;
 }
@@ -75,10 +76,10 @@ h1{
 }
 .services{
     display: flex;
-    padding: 30px;
+    padding: 10px;
 }
 .services img{
-    margin: 0px 50px;
+    margin: 0px 40px;
     height: 300px;
     width: 400px;
 }
@@ -88,7 +89,7 @@ h1{
     padding: 50px;
 }
 .products img{
-    margin: 0px 100px;
+    margin: 0px 50px;
     height: 300px;
     width: 400px;
 }
@@ -113,7 +114,7 @@ h1{
     background-color: black;
     color: white;
 }
-/* Footer Section */
+/* footer */
 footer{
     
     background-color: #9f8189;
